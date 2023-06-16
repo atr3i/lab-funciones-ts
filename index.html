@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite + TS</title>
+  <style>
+    /* label {
+        display: block;
+        margin-bottom: 1rem;
+      }
+  
+      #saludo {
+        padding: 1rem;
+      }  */
+  </style>
+</head>
+
+<body>
+  <div id="app">
+
+    <div class="turno-display">
+      <h1 id="numero-turno" class="numero-turno">00</h1>
+      <p class="texto-turno">Por favor, acérquese al mostrador</p>
+    </div>
+    <div class="turno-nav">
+      <button id="anterior" value="anterior">&leftarrow; Anterior</button>
+      <button id="siguiente" value="siguiente">Siguiente &rightarrow;</button>
+      <button id="reset" value="reset">Resetear</button>
+      <label for="enviar" class="turno-enviar">
+        <input type="text" id="turno-input">
+        <button id="enviar">Introducir turno</button>
+        <span id="error" class="mensaje-error"></span>
+      </label>
+    </div>
+
+
+    <!-- <img id="foto-principal" src="https://raw.githubusercontent.com/Lemoncode/fotos-ejemplos/main/venecia/portada.jpg"
+      alt="foto-principal" />
+
+    <div>
+      <img class="miniatura" id="miniatura1"
+        src="https://raw.githubusercontent.com/Lemoncode/fotos-ejemplos/main/venecia/foto1.jpg"
+        alt="Basílica de Santa María della Salud" />
+      <img class="miniatura" id="miniatura2"
+        src="https://raw.githubusercontent.com/Lemoncode/fotos-ejemplos/main/venecia/foto2.jpg"
+        alt="Foto de un gran canal" />
+      <img class="miniatura" id="miniatura3"
+        src="https://raw.githubusercontent.com/Lemoncode/fotos-ejemplos/main/venecia/foto3.jpg"
+        alt="Canal tradicional con góndola" />
+      <img class="miniatura" id="miniatura4"
+        src="https://raw.githubusercontent.com/Lemoncode/fotos-ejemplos/main/venecia/foto4.jpg"
+        alt="Venecia nocturna" />
+
+    </div> -->
+
+
+    <!-- <h1>TypeScript Sandbox</h1>
+      <label for="sumando1">Valor 1: 
+        <input type="text" id="sumando1">
+      </label>
+      <label for="sumando2">Valor 2: 
+        <input type="text" id="sumando2">
+      </label>
+      <button id="sumar">Sumar</button>
+
+      <div id="resultado"></div> -->
+  </div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+
+</html>
